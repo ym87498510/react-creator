@@ -1,10 +1,11 @@
 import React from 'react';
+import './app.css'
 
 export default class App extends React.Component {
   render() {
-    return (
-     <div style={{textAlign: 'center'}}>
-        <h1>Hello World</h1>
+      return (
+     <div className="title">
+        <h1>同程旅游ss</h1>
       </div>);
   }
 }
